@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Access Bars" content="width=device-width, initial-scale=1.0" />
+    <title>Unlockme</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./Mente.webp" type="image/png" />
+</head>
+
+<body>
+    <header>
+        <h1 id="header-title">Relaxing</h1>
+        <button id="toggle-lang" style="margin-top: 10px;">English</button>
+        <nav>
+            <button id="btn-what" onclick="">O que é?</button>
+            <button id="btn-contact" onclick="">Contatos</button>
+        </nav>
+    </header>
+    <main>
+        <section class="inicio">
+            <h2 id="inicio-title">Libere sua mente, trasnfome sua vida!</h2>
+            <p id="inicio-text">
+                Você já imaginou como seria viver com mais leveza, clareza e paz interior?<br />
+                As <strong>Barras de Access</strong> são uma técnica energética suave que libera bloqueios mentais,
+                crenças limitantes e
+                padrões repetitivos que impedem você de avançar.<br />
+                Com toques sutis em 32 pontos da cabeça, é possível desbloquear memórias e tensões acumuladas -
+                promovendo relaxamento profundo, alívio da ansiedade e mais liberdade emocional.<br />
+                ✨ Deixe para trás o que te trava.<br />
+                🧠 Experimente uma nova forma de cuidar da mente.<br />
+                💫 Sua mudança começa aqui.
+            </p>
+            <figure>
+                <img src="./pessoarelaxando.webp" alt="pesosoa relaxando" class="carinha" />
+            </figure>
+        </section>
+
+        <section class="Barra">
+            <h2 id="barra-title">Em que se consiste Barra de Acess?</h2>
+            <p id="barra-text">
+                As Barras de Access são uma técnica energética simples e eficaz que promove a liberação de bloqueios
+                mentais, emocionais e comportamentais por meio de toques suaves em 32 pontos específicos da cabeça.
+                Esses pontos estão ligados a áreas como emoções, memórias, crenças limitantes, controle, dinheiro,
+                criatividade, entre outros aspectos da vida.
+            </p>
+
+            <h2 id="sessao-title">Como funciona uma sessão?</h2>
+            <ul id="sessao-list">
+                <li><strong>Local:</strong> pode ser aplicada em qualquer ambiente, sem a necessidade de estrutura
+                    especial.</li>
+                <li><strong>Postura:</strong> o cliente geralmente fica deitado, de forma confortável.</li>
+                <li><strong>Duração:</strong> cerca de 1 hora por sessão.</li>
+                <li><strong>Aplicação:</strong> toques suaves com as mãos em pontos da cabeça, promovendo relaxamento
+                    profundo e reequilíbrio energético.</li>
+            </ul>
+        </section>
+
+        <section class="quem">
+            <div class="texto-quem">
+                <h2 id="quem-title">Quem pode fazer?</h2>
+                <p id="quem-text">
+                    A técnica pode ser aplicada e recebida por qualquer pessoa devidamente habilitada, e é indicada para
+                    adultos, jovens, idosos e gestantes.
+                </p>
+            </div>
+            <figure>
+                <img src="PessoaConfusa.avif" alt="Pessoa Confusa" class="carinha2" />
+            </figure>
+        </section>
+
+        <section class="relatos">
+            <h2 id="relatos-title">Benefícios mais relatados:</h2>
+            <ul id="relatos-list">
+                <li>Redução da ansiedade, estresse e insônia</li>
+                <li>Sensação de leveza, paz e bem-estar</li>
+                <li>Apoio em quadros de depressão, pânico e TDAH</li>
+                <li>Mais energia, motivação e autoestima</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        &copy; - Entre em <a href="###" id="footer-contact">Contato</a>
+    </footer>
+
+    <script>
+        const texts = {
+            pt: {
+                "header-title": "Relaxing",
+                "btn-what": "O que é?",
+                "btn-contact": "Contatos",
+                "inicio-title": "Libere sua mente, trasnfome sua vida!",
+                "inicio-text": `Você já imaginou como seria viver com mais leveza, clareza e paz interior?<br />
+          As <strong>Barras de Access</strong> são uma técnica energética suave que libera bloqueios mentais, crenças limitantes e
+          padrões repetitivos que impedem você de avançar.<br />
+          Com toques sutis em 32 pontos da cabeça, é possível desbloquear memórias e tensões acumuladas -
+          promovendo relaxamento profundo, alívio da ansiedade e mais liberdade emocional.<br />
+          ✨ Deixe para trás o que te trava.<br />
+          🧠 Experimente uma nova forma de cuidar da mente.<br />
+          💫 Sua mudança começa aqui.`,
+                "barra-title": "Em que se consiste Barra de Acess?",
+                "barra-text": `As Barras de Access são uma técnica energética simples e eficaz que promove a liberação de bloqueios mentais, emocionais e comportamentais por meio de toques suaves em 32 pontos específicos da cabeça. Esses pontos estão ligados a áreas como emoções, memórias, crenças limitantes, controle, dinheiro, criatividade, entre outros aspectos da vida.`,
+                "sessao-title": "Como funciona uma sessão?",
+                "sessao-list": `<li><strong>Local:</strong> pode ser aplicada em qualquer ambiente, sem a necessidade de estrutura especial.</li>
+          <li><strong>Postura:</strong> o cliente geralmente fica deitado, de forma confortável.</li>
+          <li><strong>Duração:</strong> cerca de 1 hora por sessão.</li>
+          <li><strong>Aplicação:</strong> toques suaves com as mãos em pontos da cabeça, promovendo relaxamento profundo e reequilíbrio energético.</li>`,
+                "quem-title": "Quem pode fazer?",
+                "quem-text": `A técnica pode ser aplicada e recebida por qualquer pessoa devidamente habilitada, e é indicada para adultos, jovens, idosos e gestantes.`,
+                "relatos-title": "Benefícios mais relatados:",
+                "relatos-list": `<li>Redução da ansiedade, estresse e insônia</li>
+          <li>Sensação de leveza, paz e bem-estar</li>
+          <li>Apoio em quadros de depressão, pânico e TDAH</li>
+          <li>Mais energia, motivação e autoestima</li>`,
+                "footer-contact": "Contato"
+            },
+            en: {
+                "header-title": "Relaxing",
+                "btn-what": "What is it?",
+                "btn-contact": "Contacts",
+                "inicio-title": "Free your mind, transform your life!",
+                "inicio-text": `Have you ever imagined what it would be like to live with more lightness, clarity, and inner peace?<br />
+          <strong>Access Bars</strong> is a gentle energetic technique that releases mental blocks, limiting beliefs, and repetitive patterns that stop you from moving forward.<br />
+          With subtle touches on 32 points on the head, it is possible to unlock accumulated memories and tensions — promoting deep relaxation, anxiety relief, and more emotional freedom.<br />
+          ✨ Leave behind what holds you back.<br />
+          🧠 Experience a new way to care for your mind.<br />
+          💫 Your change starts here.`,
+                "barra-title": "What does Access Bars consist of?",
+                "barra-text": `Access Bars is a simple and effective energetic technique that promotes the release of mental, emotional, and behavioral blocks through gentle touches on 32 specific points on the head. These points are connected to areas such as emotions, memories, limiting beliefs, control, money, creativity, and other life aspects.`,
+                "sessao-title": "How does a session work?",
+                "sessao-list": `<li><strong>Location:</strong> can be applied anywhere, without the need for special structure.</li>
+          <li><strong>Posture:</strong> the client usually lies down comfortably.</li>
+          <li><strong>Duration:</strong> about 1 hour per session.</li>
+          <li><strong>Application:</strong> gentle touches with hands on head points, promoting deep relaxation and energetic rebalancing.</li>`,
+                "quem-title": "Who can do it?",
+                "quem-text": `The technique can be applied and received by anyone properly trained, and is indicated for adults, young people, elderly, and pregnant women.`,
+                "relatos-title": "Most reported benefits:",
+                "relatos-list": `<li>Reduction of anxiety, stress, and insomnia</li>
+          <li>Sensation of lightness, peace, and well-being</li>
+          <li>Support in cases of depression, panic, and ADHD</li>
+          <li>More energy, motivation, and self-esteem</li>`,
+                "footer-contact": "Contact"
+            }
+        };
+
+        let currentLang = "pt";
+
+        document.getElementById("toggle-lang").addEventListener("click", () => {
+            currentLang = currentLang === "pt" ? "en" : "pt";
+            document.getElementById("toggle-lang").textContent = currentLang === "pt" ? "English" : "Português";
+
+            for (const id in texts[currentLang]) {
+                const el = document.getElementById(id);
+                if (el) {
+                    el.innerHTML = texts[currentLang][id];
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
